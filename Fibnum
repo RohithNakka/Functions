@@ -1,7 +1,7 @@
 //Program to find n'th fibnocci number using recursion
 #include<bits/stdc++.h>
 using namespace std;
- int Fibnocci(int n)
+ int Fibnoccinum(int n)
 {
     if (n <= 1)
     {
@@ -15,5 +15,5 @@ int main ()
     int n;
     cout<<"Enter a number:";
     cin>>n;
-    cout <<"The "<<n<<" Fibnocci number is:"<<Fibnocci(n);
+    cout <<"The "<<n<<" Fibnocci number is:"<<Fibnoccinum(n);
     return 0;
