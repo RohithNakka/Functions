@@ -1,7 +1,7 @@
 //Program to check given number is prime or not using Recursion
 #include<bits/stdc++.h>
 using namespace std;
-int Prime(int n) 
+int Primerec(int n) 
 int i=2;
 {
 	if(n<i)
@@ -27,7 +27,7 @@ int main()
 	int n,result;
 	cout<<"Enter a number:";
 	cin>>n;
-	result=Prime(n);
+	result=Primerec(n);
 	if(result==0)
 	{
 		cout<<"Not a prime number";
